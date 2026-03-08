@@ -1,5 +1,5 @@
 import random
-name = "Zeynep"
+name = ""
 random_question=("Am i gonna be successful?:")
 answer_number=random.randint(1,9)
 
@@ -24,5 +24,5 @@ elif answer_number==9:
 else:
   print("Error!")
 
-print(str(name)+ " asks : "+ random_question )
+print(str(name)+ "Question : "+ random_question )
 print("Magic 8-Ball's answer: " + answer)
